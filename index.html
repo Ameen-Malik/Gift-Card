@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift Card Redemption</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <img src="logo-removebg-preview.png" alt="" id="logoimg">
+        <h1>Gift Card Redemption</h1>
+       
+        <div class="button">
+            <button><a href=></a>signin</button>
+            <button>signin</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="left">
+            <img src="gift.gif"  height="700px" width="3000px">
+        </div>
+        <div class="rigth">
+            <p>Welcome to our Gift Card Redemption platform!</p>
+            <p>Explore our amazing offers and redeem your gift cards.</p>
+        </div>
+        <div class="bttom">
+            <p id="btmpra">Create account to redeem the gift card amount!</p>
+            <a href="signup.html">Create Account</a>
+        </div>
+       
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Gift Card Redemption</p>
+    </footer>
+
+    <!-- Sign Up Modal -->
+    <div id="signup-modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeSignupModal">&times;</span>
+            <h2>Sign Up</h2>
+            <!-- Add your sign-up form here -->
+        </div>
+    </div>
+
+    <!-- Sign In Modal -->
+    <div id="signin-modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeSigninModal">&times;</span>
+            <h2>Sign In</h2>
+            <!-- Add your sign-in form here -->
+        </div>
+    </div>
+
+    <script>
+        function openSignupModal() {
+            document.getElementById('signup-modal').style.display = 'block';
+        }
+
+        function closeSignupModal() {
+            document.getElementById('signup-modal').style.display = 'none';
+        }
+
+        function openSigninModal() {
+            document.getElementById('signin-modal').style.display = 'block';
+        }
+
+        function closeSigninModal() {
+            document.getElementById('signin-modal').style.display = 'none';
+        }
+    </script>
+</body>
+
+</html>
